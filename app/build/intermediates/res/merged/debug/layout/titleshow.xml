@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+        android:singleLine="false"  
+        android:maxLines="5"
+        android:scrollbars="vertical"
+        android:textScaleX设置文字之间间隔，默认为1.0f
+        android:textSize设置文字大小，推荐度量单位”sp”，如”15sp”
+        android:scrollHorizontally设置文本超出TextView的宽度的情况下，是否出现横拉条 -->
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/start"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:fadingEdge="vertical"
+        android:scrollbars="vertical" >
+
+        <TextView
+            android:id="@+id/titleshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:scrollbars="vertical"
+            android:singleLine="false"
+            android:textSize="18sp"
+            android:text="请等待。。。 " />
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/begain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/start"
+        android:layout_marginLeft="28dp"
+        android:src="@drawable/playservi" />
+
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/begain"
+        android:src="@drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/start"
+        android:src="@drawable/ic_media_pause" />
+
+</RelativeLayout>

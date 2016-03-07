@@ -1,0 +1,136 @@
+[
+    {
+        "outputFile": "E:\\Workspace\\main\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 43,
+                    "endOffset": 94
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 99,
+                    "endColumn": 51,
+                    "endOffset": 146
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 151,
+                    "endColumn": 36,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 188,
+                    "endColumn": 57,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 246,
+                    "endColumn": 55,
+                    "endOffset": 297
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\dimens.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 302,
+                    "endColumn": 52,
+                    "endOffset": 350
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 355,
+                    "endColumn": 42,
+                    "endOffset": 393
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 42,
+                        "endOffset": 97
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 398,
+                    "endColumn": 52,
+                    "endOffset": 446
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 451,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 531
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 536,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1192
+                },
+                "from": {
+                    "file": "E:\\Workspace\\main\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]

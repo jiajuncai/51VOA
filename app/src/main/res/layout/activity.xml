@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|fill_horizontal"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:background="@drawable/bg_weibo_listab">
+
+        <RadioButton
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_attention_selector"
+            android:text="热门" />
+
+        <RadioButton
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_atme_selector"
+            android:text="分类" />
+
+        <RadioButton
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_comment_selector"
+            android:text="收藏" />
+
+        <RadioButton
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_global_selector"
+            android:text="全站" />
+        
+          <RadioButton
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_mylist_selector"
+            android:text="我的" />
+        
+    </RadioGroup>
+</LinearLayout>

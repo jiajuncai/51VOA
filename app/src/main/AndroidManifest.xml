@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.junecai.voa"
+    android:versionCode="1215"
+    android:versionName="3.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.TestPage"></activity>
+        <activity android:name=".activity.TitleShow"></activity>
+
+        <!--服务-->
+        <service android:name=".buf.TitleServicce"></service>
+        <service android:name=".buf.TitleContentService"></service>
+        <service android:name=".buf.Playmusicservice"></service>
+    </application>
+
+</manifest>

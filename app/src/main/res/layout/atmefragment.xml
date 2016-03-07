@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+ <RadioGroup
+      android:id="@+id/atmegroup"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="8dp"
+        android:gravity="center">
+     <RadioButton  
+            android:id="@+id/atmebut1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_media_next"
+            android:background="@drawable/bg_weibo_listab"
+            android:layout_marginTop="8dp"
+            android:button="@null"
+            android:text="     收     藏" 
+            android:textSize="25sp"/>
+
+       <RadioButton
+            android:id="@+id/atmebut3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_media_next"
+            android:background="@drawable/bg_weibo_listab"
+            android:layout_marginTop="8dp"
+            android:button="@null"
+            android:text="     设     置" 
+            android:textSize="25sp"/>
+
+       <RadioButton
+            android:id="@+id/atmebut4"
+             android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_media_next"
+            android:background="@drawable/bg_weibo_listab"
+            android:layout_marginTop="8dp"
+            android:button="@null"
+            android:text="     离线管理" 
+             android:textSize="25sp"/>
+
+       <RadioButton
+            android:id="@+id/atmebut5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_media_next"
+            android:background="@drawable/bg_weibo_listab"
+            android:layout_marginTop="8dp"
+            android:button="@null"
+            android:text="     使用说明" 
+            android:textSize="25sp"/>
+
+         <RadioButton
+            android:id="@+id/atmebut6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_media_next"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_weibo_listab"
+            android:button="@null"
+            android:text="     反     馈" 
+            android:textSize="25sp"/>
+       
+          <RadioButton
+            android:id="@+id/atmeexit"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:drawableRight="@drawable/ic_media_next"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_weibo_listab"
+            android:button="@null"
+            android:text="     退     出" 
+            android:textSize="25sp"/>
+            </RadioGroup>
+    </LinearLayout>
+    
